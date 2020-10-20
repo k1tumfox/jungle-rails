@@ -96,9 +96,10 @@ cat2.products.create!({
   name:  'Hotdog Slicer',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('electronics2.jpg'),
-  quantity: 3,
+  quantity: 0,
   price: 26.00
 })
+# restore qty to 3
 
 cat2.products.create!({
   name:  'World\'s Largest Smartwatch',
