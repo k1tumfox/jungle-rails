@@ -96,7 +96,7 @@ cat2.products.create!({
   name:  'Hotdog Slicer',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('electronics2.jpg'),
-  quantity: 0,
+  quantity: 3,
   price: 26.00
 })
 # restore qty to 3
